@@ -1,0 +1,40 @@
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    body {
+        background: #7fb7d1;
+    }
+    .beigeBG,
+    .form-box {
+        display: none;
+    }
+    .mobile-box {
+        display: flex;
+    }
+}
+
+@media (max-width: 688px) {
+    .mobile-form.active .mobile-sign-in {
+        left: 33%;
+    }
+    .mobile-form .mobile-sign-up {
+        left: 33%;
+    }
+}
+
+@media (max-width: 568px) {
+    .mobile-form.active .mobile-sign-in {
+        left: 30%;
+    }
+    .mobile-form .mobile-sign-up {
+        left: 30%;
+    }
+}
+
+@media (max-width: 484px) {
+    .mobile-form.active .mobile-sign-in {
+        left: 25%;
+    }
+    .mobile-form .mobile-sign-up {
+        left: 25%;
+    }
+}

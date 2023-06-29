@@ -1,0 +1,421 @@
+/* Large desktops and laptops */
+
+@media (max-width: 1400px) {
+    .header__title {
+        font-size: 54px;
+        line-height: 57px;
+        max-width: 410px;
+    }
+
+    .description {
+        gap: 0 56px;
+    }
+
+    .shop__title {
+        font-size: 100px;
+    }
+    .promo__text {
+        font-size: 32px;
+        max-width: 580px;
+    }
+    .quality__text {
+        font-size: 38px;
+        padding: 0 34px;
+        margin-top: 100px;
+    }
+    .quality__feature {
+        margin-top: 117px;
+    }
+    .promo__p {
+        font-size: 142px;
+    }
+    .info__text {
+        margin-top: 109px;
+    }
+    .ideas {
+        flex: 1;
+    }
+    .ideas img {
+        max-width: 49%;
+    }
+    .inspiration-container {
+        flex: 1;
+    }
+    .inspiration-text__text {
+        font-size: 38px;
+        max-width: 350px;
+        margin-top: 107px;
+    }
+    .inspiration-text__account-name {
+        margin-bottom: 103px;
+    }
+
+    .sign-up__p {
+        font-size: 10px;
+    }
+    .navigation-column__title {
+        font-size: 13px;
+    }
+    .navigation-column__list li a{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .header__container {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
+
+/* Portrait tablets and medium desktops */
+@media (max-width: 1199px) {
+    .header__title {
+        font-size: 54px;
+        line-height: 57px;
+    }
+
+    .slider__item {
+        gap: 0 40px;
+    }
+
+    .shop__title {
+        font-size: 100px;
+    }
+    .promo__text {
+        font-size: 32px;
+        max-width: 580px;
+    }
+    .quality__text {
+        font-size: 38px;
+        padding: 0 34px;
+        margin-top: 100px;
+    }
+    .quality__feature {
+        margin-top: 117px;
+    }
+    .promo__p {
+        font-size: 142px;
+    }
+    .info__text {
+        margin-top: 109px;
+    }
+    .ideas {
+        flex: 1;
+    }
+    .ideas img {
+        max-width: 49%;
+    }
+    .inspiration-container {
+        flex: 1;
+    }
+    .inspiration-text__text {
+        font-size: 38px;
+        max-width: 350px;
+        margin-top: 107px;
+    }
+    .inspiration-text__account-name {
+        margin-bottom: 103px;
+    }
+
+    .sign-up__p {
+        font-size: 10px;
+    }
+    .navigation-column__title {
+        font-size: 13px;
+    }
+    .navigation-column__list li a{
+        font-size: 13px;
+    }
+} 
+
+@media (max-width: 1040px) {
+    .description {
+        gap: 0 25px;
+    }
+    .slider__item {
+        gap: 0 40px;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+    .header__title {
+        font-size: 40px;
+        line-height: 44px;
+        max-width: 300px;
+    }
+    .header__button {
+        margin-bottom: 240px;
+    }
+    
+    .description__numbers {
+        font-size: 14px;
+    }
+
+    .slider {
+        display: flex;
+        margin: 0 auto;
+        max-width: 600px;
+        height: 100px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .slider__items {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    /* плавно перелистываются */
+    .slider__line {
+        display: flex;
+        gap: 0 20px;
+        margin-left: 63px;
+        transition: all 1s;
+    }
+
+    .slider__btn-prev,
+    .slider__btn-next {
+        display: inline-block;
+    }
+
+    .slider__btn-prev {
+        position: absolute;
+        top: 78px;
+        left: 0%;
+        transform: translateY(-50%) rotate(180deg);
+        font-size: 20px;
+
+        color: rgba(66, 94, 68, .849);
+        background-color: transparent;
+        border: 1px solid rgba(66, 94, 68, .849);
+        border-radius: 5px;
+        line-height: 1;
+    }
+
+    .slider__btn-next {
+        position: absolute;
+        top: 78px;
+        left: 94%;
+        transform: translateY(-50%);
+        font-size: 20px;
+
+        color: rgba(66, 94, 68, .849);
+        background-color: transparent;
+        border: 1px solid rgba(66, 94, 68, .849);
+        border-radius: 5px;
+        line-height: 1;
+    }
+
+    .slider__btn-prev:hover,
+    .slider__btn-next:hover {
+        cursor: pointer;
+        background-color: rgba(31, 30, 30, 0.41);
+    }
+
+    .shop__title {
+        font-size: 74px;
+        line-height: 82.25px;
+        margin-bottom: 50px;
+    }
+    .paints__card {
+        width: calc(100% / 12 * 3 - 30px);
+        margin: 0px 15px 37px;
+    }
+    .promo {
+        margin-top: 80px;
+    }
+    .promo__text {
+        font-size: 26px;
+        line-height: 32.83px;
+        width: calc(100% / 12 * 8 );
+        margin-bottom: 76px;
+    }
+    .quality__text {
+        font-size: 38px;
+        line-height: 40px;
+    }
+    .quality__feature {
+        font-size: 12px;
+        margin-top: 120px;
+        margin-bottom: 30px;
+    }
+    .promo__p {
+        font-size: 100px;
+        line-height: 120px;
+    }
+    .info__text {
+        margin-top: 82px;
+        font-size: 28px;
+        line-height: 32px;
+        max-width: 260px;
+    }
+    .button-info {
+        margin-top: 37px;
+    }
+    .inspiration-text__text {
+        margin-top: 84px;
+        font-size: 34px;
+        line-height: 38px;
+        max-width: 270px;
+    }
+    .inspiration-text__account-name {
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 65px;
+    }
+    .inspiration-text__p {
+        font-size: 10px;
+    }
+    .footer-info {
+        display: block;
+    }
+    .sign-up {
+        border-bottom: 1px solid rgba(31, 30, 30, 0.1);
+    }
+    .navigation {
+        margin: 0;
+    }
+    .navigation::before {
+        display: none;
+    }
+    .navigation-menu {
+        display: none;
+    }
+    .navigation__insta {
+        margin-left: 0;
+    }
+
+    .dropdown-menu {
+        display: flex;
+    }
+}
+
+@media (max-width: 871px) {
+
+    .quality__text {
+        font-size: 30px;
+        line-height: 36px;
+        max-width: 319px;
+    }
+    .quality__feature {
+        font-size: 12px;
+        margin-top: 110px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .container {
+        max-width: 650px;
+    }
+    .menu__burger-btn {
+        display: block;
+    }
+    .menu__left {
+        display: block;
+        position: absolute;
+        top: -26px;
+        left: -600px;
+        min-width: 300px;
+        background: rgba(255, 255, 255, 1);
+        padding: 100px 50px 20px 50px;
+        transition: transform .5s;
+    }
+
+    .menu__left a {
+        color: rgb(66, 94, 68);
+        font-weight: 500;
+    }
+
+    /* 100% чтобы при open объект выдвигался обратно на 100% */
+    .header__menu.open .menu__left {
+        transform: translateX(200%);
+    }
+
+    .menu__link {
+        display: block;
+        font-size: 21px;
+        line-height: 24px;
+        padding: 10px 0;
+    }
+
+    .header__title {
+        font-size: 32px;
+        line-height: 38px;
+        max-width: calc(100% / 12 * 6 - 20px);
+    }
+    .header__button {
+        margin-bottom: 240px;
+    }
+
+    .shop__title {
+        font-size: 58px;
+        line-height: 60px;
+    }
+    .paints__card {
+        width: calc(100% / 12 * 6 - 30px);
+        margin: 0px 4px 27px;
+    }
+    .promo__title {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .promo__text {
+        margin-bottom: 52px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .interior {
+        flex-direction: column;
+    }
+    .quality {
+        width: 100%;
+    }
+    .quality__text {
+        margin-top: 80px;
+    }
+    .quality__feature {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    .promo__p {
+        font-size: 70px;
+        line-height: 80px;
+        margin-bottom: 25px;
+    }
+    .promo__characteristics {
+        font-size: 16px;
+    }
+    .samples {
+        flex-direction: column;
+        gap: 10px 0px;
+        margin-bottom: 130px;
+    }
+    .info__text {
+        margin-top: 62px;
+    }
+    .button-info {
+        margin-bottom: 30px;
+    }
+    .design {
+        text-align: center;
+    }
+    .photo {
+        text-align: center;
+    }
+    .photo__img {
+        max-width: 100%;
+    }
+    .inspiration {
+        flex-direction: column;
+    }
+}
+
+/* последняя адекватная точка на 549 */
+/* Landscape phones and smaller */
+/* @media (max-width: 480px) {
+
+} */

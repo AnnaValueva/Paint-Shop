@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    /* font-style: normal; */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #4cc052;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: .5s;
+}
+
+body.active {
+    background: #4da3ca;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin: 20px;
+}
+
+.beigeBG {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    height: 400px;
+    background: rgba(244, 237, 230, .2);
+    box-shadow: 0 10px 45px rgba(0, 0, 0, .15);
+}
+
+.beigeBG .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+.box h2 {
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.box button {
+    padding: 10px 20px;
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.form-box {
+    position: absolute;
+    background: #fff;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 45px rgba(0, 0, 0, .25);
+    transition: ease-in-out .5s;
+    overflow: hidden;
+}
+
+.form-box.active {
+    left: 50%;
+}
+
+.form-box .form {
+    position: absolute;
+    width: 80%;
+    transition: .5s;
+    padding: 50px;
+}
+
+.form-box .sign-in-form {
+    transition-delay: .25s;
+}
+
+.form-box.active .sign-in-form {
+    left: -100%;
+    transition-delay: 0;
+}
+
+.form-box .sign-up-form {
+    left: 100%;
+    transition-delay: 0;
+}
+
+.form-box.active .sign-up-form {
+    left: 0%;
+    transition-delay: .25s;
+}
+
+.form-box .form form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.form form input {
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #333;
+}
+
+.form form h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.form form input[value="Sign In"] {
+    border: none;
+    background: #4cc052;
+    max-width: 100px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form form input[value="Sign Up"] {
+    border: none;
+    background: #4da3ca;
+    max-width: 100px;
+    color: #fff;
+    cursor: pointer;
+}
+
+a {
+    color:#333;
+    font-size: 14px;
+    text-align: left;
+}
+
+
+.mobile-box {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 45px rgba(0, 0, 0, .25);
+    background-color: #ecf1f5;
+    border-radius: 25px;
+    max-width: 70%;
+    margin: auto;
+    height: 500px;
+}
+
+.sign-btn {
+    display: flex;
+    gap: 0 20px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+
+.mobile-box__btn-sign-up {
+    padding: 10px 10px;
+    background: #4da3ca;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mobile-box__btn-sign-up:hover {
+    background: #39728b;
+}
+
+.mobile-box__btn-sign-in {
+    padding: 10px 10px;
+    background: #4da3ca;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mobile-box__btn-sign-in:hover {
+    background: #39728b;
+}
+
+.sign-btn button:focus {
+    background: #39728b;
+}
+
+
+.mobile-form {
+    display: flex;
+}
+
+.mobile-sign-in form {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-sign-in form h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mobile-sign-in form input{
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #333;
+}
+
+.mobile-sign-in form .mobile-sign-in__btn {
+    border: none;
+    border-radius: 5px;
+    background: #4da3ca;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+form .mobile-sign-in__btn:hover {
+    background: #39728b;
+}
+
+
+.mobile-sign-up form {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-sign-up form h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mobile-sign-up form input{
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #333;
+}
+
+.mobile-sign-in .mobile-sign-in__btn {
+    border: none;
+    border-radius: 5px;
+    background: #4da3ca;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.mobile-sign-in .mobile-sign-in__btn:hover {
+    background: #39728b;
+}
+
+.mobile-sign-up .mobile-sign-up__btn {
+    border: none;
+    border-radius: 5px;
+    background: #4da3ca;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.mobile-sign-up .mobile-sign-up__btn:hover {
+    background: #39728b;
+}
+
+
+.mobile-form .type {
+    position: absolute;
+    transition: .5s;
+    padding: 20px;
+}
+
+.mobile-form.active .mobile-sign-up {
+    left: -100%;
+}
+
+.mobile-form .mobile-sign-in {
+    left: -100%;
+    transition-delay: .25s;
+}
+
+.mobile-form.active .mobile-sign-in {
+    left: 36%;
+    transition-delay: .25s;
+}
+
+.mobile-form .mobile-sign-up {
+    left: 36%;
+    transition-delay: .25s;
+}
+
+.mobile-form.active .mobile-sign-up {
+    left: -100%;
+    transition-delay: .25s;
+}
+
