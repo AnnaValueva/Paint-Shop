@@ -39,7 +39,7 @@ img {
 
 .header {
     margin-top: -23px;
-    background-image: url(/images/header_background.png);
+    background: url(/images/header_background.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
