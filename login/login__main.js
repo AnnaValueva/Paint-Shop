@@ -8,7 +8,6 @@ const mobileSignUp = document.querySelector('.mobile-box__btn-sign-up')
 const mobileBox = document.querySelector('.mobile-form')
 
 
-
 signUpBtn.onclick = function () {
     formBox.classList.add('active');
     body.classList.add('active');
