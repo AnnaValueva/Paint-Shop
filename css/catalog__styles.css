@@ -20,11 +20,12 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     font-weight: 400;
     font-size: 16px;
     font-style: normal;
+    color: #1F1E1E;
 }
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #1F1E1E;
 }
 
 ol, ul {
@@ -36,6 +37,9 @@ img {
     height: auto;
 }
 
+.container {
+    margin-bottom: 50px;
+}
 
 /* header styles */
 

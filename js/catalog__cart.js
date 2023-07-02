@@ -34,7 +34,6 @@ class Cart {
             </div>
                 <table>
                     ${htmlCatalog}
-                    
                     <tr>
                         <td class="cart-element__name">TOTAL :</td>
                         <td class="cart-element__sum">€${sumCatalog}</td>
