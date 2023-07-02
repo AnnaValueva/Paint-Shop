@@ -29,7 +29,7 @@ class Cart {
 
         const html = `
             <div class="cart-container">
-            <div class="cart__close" onclick="cartPage.handleClear()">
+                <div class="cart__close" onclick="cartPage.handleClear()">
 
             </div>
                 <table>

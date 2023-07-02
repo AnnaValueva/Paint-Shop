@@ -30,11 +30,50 @@
     }
 }
 
+@media (max-width: 537px) {
+    .mobile-form.active .mobile-sign-in {
+        left: 28%;
+    }
+    .mobile-form .mobile-sign-up {
+        left: 28%;
+    }
+    .mobile-box {
+        max-width: 90%;
+    }
+}
+
 @media (max-width: 484px) {
     .mobile-form.active .mobile-sign-in {
         left: 25%;
     }
     .mobile-form .mobile-sign-up {
         left: 25%;
+    }
+}
+
+@media (max-width: 431px) {
+    .mobile-form.active .mobile-sign-in {
+        left: 22%;
+    }
+    .mobile-form .mobile-sign-up {
+        left: 22%;
+    }
+}
+
+@media (max-width: 417px) {
+    .mobile-form.active .mobile-sign-in {
+        left: 20%;
+    }
+    .mobile-form .mobile-sign-up {
+        left: 20%;
+    }
+}
+
+@media (max-width: 373px) {
+    .mobile-form.active .mobile-sign-in {
+        left: 17%;
+    }
+    .mobile-form .mobile-sign-up {
+        left: 17%;
     }
 }

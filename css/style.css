@@ -115,7 +115,6 @@ img {
 
 
 .header__title {
-    width: calc(100% / 12 * 5 - 20px);
     font-size: 63px;
     line-height: 65.63px;
     margin-bottom: 36px;
@@ -262,9 +261,7 @@ img {
 .promo__text {
     font-size: 38px;
     line-height: 45.83px;
-    justify-content: center;
     text-align: center;
-    width: calc(100% / 12 * 7.5 );
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 95.84px;
@@ -356,7 +353,7 @@ img {
     align-items: center;
     background-image: url(../images/samples_background.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 .info__text {
@@ -611,7 +608,6 @@ img {
 
 .cart-btn{
     margin-left: auto;
-    padding-right: 30px;
     cursor: pointer;
 }
 
@@ -654,11 +650,12 @@ img {
 }
 
 .cart__close {
-    position: fixed;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 1880px;
     width: 35px;
     height: 35px;
-    top: 20px;
-    right: 20px;
     background-image: url(../images/close.svg);
     background-repeat: no-repeat;
     background-position: center center;

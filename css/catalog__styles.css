@@ -44,6 +44,10 @@ img {
     height: 50px;
     padding: 10px;
     background-color: #e8e8e8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .header-counter {
@@ -63,7 +67,7 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
     max-width: 1200px;
-    margin: 30px auto 0;
+    margin: 80px auto 0;
     padding: 0px 50px;
 }
 
@@ -191,11 +195,12 @@ img {
 }
 
 .cart__close {
-    position: absolute;
     width: 35px;
     height: 35px;
-    top: 20px;
-    right: 20px;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 1880px;
     background-image: url(../images/close.svg);
     background-repeat: no-repeat;
     background-position: center center;
