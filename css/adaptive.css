@@ -5,6 +5,9 @@
         font-size: 54px;
         line-height: 57px;
     }
+    .header__button {
+        margin-bottom: 480px;
+    }
 
     .description {
         gap: 0 56px;
