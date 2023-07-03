@@ -83,12 +83,10 @@ img {
     background-color: #425E44;
 }
 
-/* скрывается средний элемент при open */
 .header__menu.open .menu__burger-btn span:nth-child(2) {
     opacity: 0;
 }
 
-/* делается крестик */
 .header__menu.open .menu__burger-btn span:nth-child(1) {
     transform: translateY(0) rotate(45deg);
 }
@@ -160,17 +158,6 @@ img {
     margin-right: 17px;
     font-size: 18px;
     line-height: 27.5px;
-}
-
-.slider__item {
-    display: flex;
-    align-items: center;
-    gap: 0px 110px;
-}
-
-.slider__btn-prev,
-.slider__btn-next {
-    display: none;
 }
 
 .shop {

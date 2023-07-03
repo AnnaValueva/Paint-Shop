@@ -3,21 +3,14 @@ const burgerBtn = document.getElementById('burger');
 const headerMenu = document.querySelector('.header__menu');
 
 
-// также дополнительно прописывается чтобы работало после загрузки стилей
 document.addEventListener("DOMContentLoaded", function () {
-    // alert - выводит сверху окошко "подтвердите действие и текст"
-    // alert('sdfaerf');
     burgerBtn.addEventListener('click', function () {
-        // toggle - если нет - добавит, если есть - уберет
         headerMenu.classList.toggle('open')
         cartContainer.classList.remove('active')
     })
 })
 
 
-
-
-// создана для шаблонной записи продуктов и получения необходимых данных
 function createProduct (product) {
     return {
         id: product.id,
@@ -28,8 +21,7 @@ function createProduct (product) {
     }
 }
 
-// бегает по массиву на основании функции-шаблона createProduct
-// и выводит html структуру карточек
+
 for (i = 0; i < GOODS.length; i++) {
     const paint = createProduct(GOODS[i]);
 

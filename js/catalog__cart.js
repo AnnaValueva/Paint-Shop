@@ -11,7 +11,6 @@ class Cart {
         let volumeCatalog = 0;
 
         GOODS.forEach(({ id, name, price, volume, imgSrc }) => {
-            // Дополнительная проверка, поскольку нужны товары в корзине, а не все
             if (productsStore.indexOf(id) !== -1 && price !== null && volume !== null) {
                 htmlCatalog += `
                     <tr>

@@ -9,7 +9,6 @@ class Header {
         cartPage.render();
     }
 
-    // render отобразит код на странице, count для количества товаров
     render(count) {
         const menuItems = `
         <li class="cart-btn">

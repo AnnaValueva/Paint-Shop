@@ -74,10 +74,6 @@
         line-height: 57px;
     }
 
-    .slider__item {
-        gap: 0 40px;
-    }
-
     .shop__title {
         font-size: 100px;
     }
@@ -130,9 +126,6 @@
     .description {
         gap: 0 25px;
     }
-    .slider__item {
-        gap: 0 40px;
-    }
 }
 
 /* Portrait tablets and small desktops */
@@ -147,67 +140,6 @@
     
     .description__numbers {
         font-size: 14px;
-    }
-
-    .slider {
-        display: flex;
-        margin: 0 auto;
-        max-width: 600px;
-        height: 100px;
-        overflow: hidden;
-        position: relative;
-    }
-
-    .slider__items {
-        width: 600px;
-        margin: 0 auto;
-    }
-
-    /* плавно перелистываются */
-    .slider__line {
-        display: flex;
-        gap: 0 20px;
-        margin-left: 63px;
-        transition: all 1s;
-    }
-
-    .slider__btn-prev,
-    .slider__btn-next {
-        display: inline-block;
-    }
-
-    .slider__btn-prev {
-        position: absolute;
-        top: 78px;
-        left: 0%;
-        transform: translateY(-50%) rotate(180deg);
-        font-size: 20px;
-
-        color: rgba(66, 94, 68, .849);
-        background-color: transparent;
-        border: 1px solid rgba(66, 94, 68, .849);
-        border-radius: 5px;
-        line-height: 1;
-    }
-
-    .slider__btn-next {
-        position: absolute;
-        top: 78px;
-        left: 94%;
-        transform: translateY(-50%);
-        font-size: 20px;
-
-        color: rgba(66, 94, 68, .849);
-        background-color: transparent;
-        border: 1px solid rgba(66, 94, 68, .849);
-        border-radius: 5px;
-        line-height: 1;
-    }
-
-    .slider__btn-prev:hover,
-    .slider__btn-next:hover {
-        cursor: pointer;
-        background-color: rgba(31, 30, 30, 0.41);
     }
 
     .shop__title {
