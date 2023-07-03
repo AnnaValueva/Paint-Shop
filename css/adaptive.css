@@ -137,9 +137,10 @@
     .header__button {
         margin-bottom: 240px;
     }
-    
-    .description__numbers {
-        font-size: 14px;
+
+    .description__numbers,
+    .description__text {
+        font-size: 12px;
     }
 
     .shop__title {
@@ -220,6 +221,10 @@
 }
 
 @media (max-width: 871px) {
+    .description__numbers,
+    .description__text {
+        font-size: 10px;
+    }
 
     .quality__text {
         font-size: 30px;
@@ -257,7 +262,6 @@
         font-weight: 500;
     }
 
-    /* 100% чтобы при open объект выдвигался обратно на 100% */
     .header__menu.open .menu__left {
         transform: translateX(200%);
     }
@@ -275,6 +279,16 @@
     }
     .header__button {
         margin-bottom: 159px;
+    }
+
+    .description {
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .description__items {
+        width: 212px;
     }
 
     .shop__title {
@@ -366,6 +380,7 @@
         margin-bottom: 50px;
         padding: 15px 30px;
     }
+
     .shop__title {
         font-size: 48px;
         line-height: 54px;
